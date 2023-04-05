@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: black;
+}
+
+.header-main {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/images/supriya.png");
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header-main nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  gap: 2px;
+  border-bottom: 2px solid red;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  top: 170px;
+  left: 15px;
+  position: absolute;
+}
+
+.name h2 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Sono", sans-serif;
+  font-size: 2em;
+}
+
+.name h3 {
+  font-size: 1.2em;
+ 
+}
+
+.downloadcv {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: white;
+  background-color: 2px solid red;
+  border-radius: 70px;
+}
+
+/* aboutme page */
+.mainabout {
+  background-color: black;
+}
+
+figure img {
+  background-position: center;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 90px;
+  width: 200px;
+}
+
+article {
+  padding: 5%;
+}
+
+.mainabout h1 {
+  font-size: 2em;
+  text-align: center;
+ 
+}
