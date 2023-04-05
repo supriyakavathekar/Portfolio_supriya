@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.frontpage {
+background-image: url("/assets/images/supriya.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100%;
+width: 100%;
+color: white;
+}
+
+
+
+
+
+
+
+
+/* about */
+.about img {
+    height: 300px;
+    width: 200px;
+}
