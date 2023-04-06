@@ -2,34 +2,100 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
   height: 100vh;
   width: 100vw;
-  background-color: black;
+  background-color: rgb(8, 8, 8);
   color: white;
 }
 
-.frontpage {
-background-image: url("/assets/images/supriya.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 100%;
-width: 100%;
-color: white;
+.header-main {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/images/supriya.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+}
 
+.header-main nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  gap: 2px;
+  border-bottom: 2px solid red;
+  width: 100%;
+}
 
+.name {
+  display: flex;
+  flex-direction: column;
+  top: 170px;
+  left: 15px;
+  position: absolute;
+}
 
+.name h2 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Sono", sans-serif;
+  font-size: 2em;
+}
 
+.name h3 {
+  font-size: 1.2em;
+}
 
-
+.downloadcv {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: white;
+  background-color: 2px solid red;
+  border-radius: 70px;
+}
 
 /* about */
-.about img {
-    height: 300px;
-    width: 200px;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
 }
+.about img {
+  height: 150px;
+  width: 120px;
+}
+
+.about p {
+  padding: 5%;
+}
+
+.detail {
+  height: 25px;
+  width: 80px;
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 40px;
+ 
+}
+
