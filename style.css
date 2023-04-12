@@ -358,6 +358,41 @@ margin-bottom: 100px;
     background-size: contain;
     background-position: 75%;
   }
+
+
+  /* about page */
+
+  .about {
+    
+    gap: 10px;
+    justify-content: center;
+    
+  
+  }
+
+  
+  .aboutme {
+    width: 650px;
+    
+ 
+
+  }
+
+  .education {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .aboutme h2 {
+    font-size: 2.5em;
+  }
+  .aboutme h3 {
+    font-size: 1.5em;
+  }
+
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
