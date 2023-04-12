@@ -190,7 +190,29 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+/* front page */
+
+.name h2 {
+
+  font-size: 3em;
+ 
 }
+
+.name {
+  
+  top: 170px;
+
+  position: absolute;
+}
+
+.header-main {
+background-size: contain;
+background-position: 75%;
+}
+
+}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
