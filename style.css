@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 
-nav a {
+.header-main nav a {
   color:rgb(249, 243, 243);
   text-decoration: none;
   font-size: large;
@@ -129,24 +129,57 @@ background-color: white;
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .header-main{
+    background-size: contain;
+    background-position: 85%;
+  }
 
+  .header-main nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80px;
+  }
+
+  .header-main nav a {
+    font-size: 1.5em;
+  }
+
+  .name h2 {
+   
+    font-size: 2.2em;
+    font-weight: 800px;
+    letter-spacing: 2px;
+  }
+
+  .name h3 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+  }
+
+  .name {
   
+   
+    padding: 2%;
+    top: 250px;
+    
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-  
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-  
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-  
+
 }
