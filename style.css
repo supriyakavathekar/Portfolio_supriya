@@ -157,14 +157,22 @@ font-size: small;
   background-color: crimson;
   color: white;
   font-weight: 800px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;}
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+transition: transform .1s;
+}
  
+.detail:hover {
+  background-color: white;
+  color: crimson;
+}
 
 
 .detail li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
 }
+
+
+
 
 
 
@@ -179,6 +187,8 @@ font-size: small;
    background-color: black; 
   color: white;
 }
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .header-main {
@@ -213,6 +223,10 @@ font-size: small;
     padding: 2%;
     top: 250px;
   }
+
+
+
+  /* about me  */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
