@@ -227,6 +227,36 @@ transition: transform .1s;
 
 
   /* about me  */
+
+  .about img {
+    height: 250px;
+    
+  }
+
+  .aboutme h2 {
+    font-size: 1.2em;
+    font-weight: 800px;
+   }
+
+   .aboutme h3 {
+    padding: 0%;
+    font-size: 1.2em;
+   }
+
+  .about p {
+    padding: 6%; 
+    text-align: justify;
+ 
+  }
+
+  .education {
+    display: flex;
+    gap: 30px;
+  }
+
+
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
