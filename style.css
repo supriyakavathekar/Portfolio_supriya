@@ -32,6 +32,15 @@ body {
   font-size: large;
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.header-main nav a:hover{
+color: rgb(177, 15, 15);
+-ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
 }
 
 .header-main nav {
@@ -44,6 +53,12 @@ body {
   border-bottom: 2px solid rgb(177, 15, 15);
   width: 100%;
   background-color: rgb(177, 15, 15);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.header-main nav:hover {
+  background-color: black;
 }
 
 .name {
@@ -90,6 +105,8 @@ color: rgb(177, 15, 15);
 color: rgb(177, 15, 15);
 background-color: white;
 }
+
+
 
 
 
