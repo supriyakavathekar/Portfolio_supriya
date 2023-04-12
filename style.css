@@ -234,6 +234,23 @@ margin-bottom: 100px;
   border-radius: 30px;
 }
 
+.portfolio-child figcaption {
+ color: crimson;
+ font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ font-weight: 800px;
+ font-size: 1.4em;
+}
+
+.portfolio-child {
+  cursor: pointer;
+  transition: .4s;
+}
+
+.portfolio-child:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 
 
 
