@@ -156,9 +156,29 @@ font-size: small;
   border-radius: 40px;
   background-color: crimson;
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;}
+ 
+
+
+.detail li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
 }
 
+
+
+
+/* portfolio */
+
+
+.portfolio {
+  margin-top: 40px;
+  height: 100%;
+  width: 100%;
+   background-color: black; 
+  color: white;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .header-main {
