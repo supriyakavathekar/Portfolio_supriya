@@ -405,7 +405,19 @@ margin-bottom: 100px;
 
   /* portfolio */
 
+  .portfolio-parent {
+    gap: 100px;
+  }
 
+
+  .portfolio-child img {
+    height: 300px;
+    width: 350px;
+  }
+
+  .header-portfolio h2 {
+    font-size: 2em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
