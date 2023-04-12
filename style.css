@@ -74,28 +74,30 @@ nav a {
 
 /* about */
 
-.about {
+ .about { 
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 40px;
   align-items: center;
-}
-.about img {
+} 
+
+.about img { 
   height: 150px;
   width: 120px;
 }
 
-.about p {
+.about p { 
   padding: 5%;
-}
+ } 
 
-.detail {
+.detail { 
   height: 25px;
   width: 80px;
   border: 2px solid red;
   text-align: center;
   border-radius: 40px;
  
-}
+ }
+
 
