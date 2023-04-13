@@ -10,6 +10,7 @@ body {
   width: 100vw;
   background-color: rgb(8, 8, 8);
   color: white;
+
 }
 
 .header-main {
@@ -342,6 +343,17 @@ padding-bottom: 20%;
 }
 
 
+/* footer */
+footer {
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+
+
 
 
 
@@ -586,6 +598,14 @@ padding-bottom: 20%;
   }
 
 .header-portfolio h2 {
+  font-size: 3em;
+}
+
+
+.contact {
+  padding-top: 10%;
+}
+.contact h2 {
   font-size: 3em;
 }
 
