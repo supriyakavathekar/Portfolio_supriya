@@ -511,6 +511,15 @@ padding-bottom: 20%;
   .header-portfolio h2 {
     font-size: 2em;
   }
+
+/* contact */
+
+.contact h2 {
+  font-size: 2em;
+}
+
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
