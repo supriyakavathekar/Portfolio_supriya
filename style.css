@@ -288,9 +288,7 @@ margin-bottom: 100px;
   display: inline-block;
 }
 
-.contact-left {
-  padding-left: 30%;
-}
+
 
 
 .contact-left img {
@@ -325,27 +323,14 @@ margin-bottom: 100px;
   border: 1px solid crimson;
   border-radius: 20px;
   font-size: 1em;
+
  
 }
 
-.contact-right form {
-  width: 100%;
- 
- padding-left: 20%;
-}
-.contact-right h3 {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-form input, form textarea {
-  width: 80%;
- border:1px solid;
- outline: none;
-border-radius: 15px;
-  padding: 15px;
- 
-}
+
+
+
 
 .row {
   display: flex;
@@ -353,7 +338,10 @@ border-radius: 15px;
   align-items: center;
   justify-content: center;
   margin-top: 80px;
+padding-bottom: 20%;
 }
+
+
 
 
 
@@ -439,7 +427,15 @@ border-radius: 15px;
 
 
 /* contact */
+.contact{
+  padding-top: 20%;
+}
 
+.row {
+ 
+  margin-top: 50px;
+ 
+}
 
 }
 
