@@ -62,6 +62,26 @@ body {
   background-color: black;
 }
 
+
+.go-to-top a {
+text-decoration: none;
+color: white ;
+font-size: 1em;
+font-weight: 800px;
+
+letter-spacing: 2px;
+}
+
+.go-to-top {
+  position: fixed;
+    right: 2px;
+    bottom: 0;
+    border: 1px solid crimson;
+    background-color: crimson;
+  
+    
+    
+}
 .name {
   display: flex;
   flex-direction: column;
